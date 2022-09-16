@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar{
+    margin-left: 785px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 0 22px;
+    font-size: 20px;
+
+}
+.logo{
+    color: white;
+    font-size: 30px;
+}
+.navbar a{
+    color: white;
+}
+.justify{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posi-rele{
+    position: relative;
+}
+.img-1{
+    width: 100%;
+    height: 712px;
+}
+.header{
+    position: absolute;
+    top: 50px;
+}
+.hero-text{
+    position: absolute;
+    z-index: 1000;
+    top: 200px;
+}
+.hero-text h1{
+    font-size: 68px;
+    color: white;
+    font-style: italic;
+    padding: 20px 0;
+}
+.hero-text h3{
+    font-size: 26px;
+    font-style: italic;
+    color:#d66513ce;
+    
+}
+.shop{
+    background-color: #d66513;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+    border: white;
+}
+.cupcake-button{
+    background-color: #e61045;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+    border: white;
+}
+.fruity-button{
+    background-color: #e222e2;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+    border: white;
+}
+.about{
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    z-index: 1000;
+    width: 300px;
+
+}
+.about h2{
+    color: white;
+
+
+}
+.about span{
+    font-size: 40px;
+}
+.about p{
+    color: white;
+    line-height: 24px;
+}
+.circle{
+    position: absolute;
+    bottom: 20px;
+}
+.circle ul li{
+    display: inline-block;
+    padding: 8px;
+    
+}
+.circle a{
+    color: white;
+}
+.circle i{
+    font-size: 12px;
+}
+.symbol{
+    position: absolute;
+    bottom: 20px;
+    right:200px ;
+
+}
+.symbol ul li{
+    display: inline-block;
+    padding: 8px;
+
+}
+.symbol a{
+    color: white;
+}
+.symbol ul li h4{
+    color: white;
+}
+.supa-fresh h3{
+    color: #e61045;
+}
+.frutiy h3{
+    color: #e222e2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* slider css */
+
+
+
+.slider-img {
+    width: 100%;
+}
+
+.animationslide {
+animation: slideleft 2s;
+}
+
+@keyframes slideleft {
+to {
+transform: scale(1) rotate(360deg);
+}
+
+from {
+transform: scale(.25) rotate(0deg);
+}
+
+}
